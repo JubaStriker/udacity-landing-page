@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='h-24 bg-white shadow-lg flex items-center '>
+        <div className='h-24 bg-white shadow-lg flex items-center z-10'>
 
-            <div className='flex justify-between items-center w-[80%] mx-auto'>
+            <div className='flex justify-between items-center w-[80%] mx-auto md:hidden lg:flex'>
                 <img src="https://www.udacity.com/images/svgs/udacity-tt-logo.svg" alt="" />
                 <div className='flex gap-8 items-center'>
                     <div className='text-lg font-medium hover:text-[#2015ff] hover:cursor-pointer'>Why udacity?</div>
